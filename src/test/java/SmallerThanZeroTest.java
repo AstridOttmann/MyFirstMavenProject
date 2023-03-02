@@ -30,7 +30,7 @@ public class SmallerThanZeroTest {
 
     }
     @Test
-    void givenNumberEqualZeroReturnsFalse(){
+    void givenNumberEqualZeroReturnsTrue(){
         //GIVEN
         int i = 0;
 
