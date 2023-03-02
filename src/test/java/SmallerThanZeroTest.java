@@ -7,7 +7,7 @@ public class SmallerThanZeroTest {
     @Test
     void givenNumberTwoReturnsFalse(){
         //GIVEN
-        int i = -22;
+        int i = 2;
 
         //WHEN
         boolean actual = SmallerThanZero.smallerThanZero(i);
