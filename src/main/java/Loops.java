@@ -16,7 +16,10 @@ public class Loops {
         ExercisesNovice.printName("Astrid");
         System.out.println(ExercisesNovice.checkNumberBiggerThanZero(-23));
         System.out.println(ExercisesNovice.squareProduct(3));
-        ExercisesNovice.personalGreeting();
+        //ExercisesNovice.personalGreeting();
+        System.out.println(ExercisesIntermediate.numeralWordOfNumber(3));
+        ExercisesIntermediate.numbersOneToHundred();
+        ExercisesIntermediate.storeUserInputInArray();
 
     }
 
