@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Loops {
 
     public static void main(String[] args) {
@@ -19,7 +21,11 @@ public class Loops {
         //ExercisesNovice.personalGreeting();
         System.out.println(ExercisesIntermediate.numeralWordOfNumber(3));
         ExercisesIntermediate.numbersOneToHundred();
-        ExercisesIntermediate.storeUserInputInArray();
+        //ExercisesIntermediate.storeUserInputInArray();
+        System.out.println(ExercisesExpert.reverseString("Hello Neue Fische"));
+        System.out.println(Arrays.toString(ExercisesExpert.sortedArray(new int[]{8, 5, 4, 11, 0, 7, 9, 1})));
+        System.out.println(Arrays.toString(ExercisesExpert.stringWordsAsArray("Heute war ein sonniger Tag")));
+        System.out.println(ExercisesExpert.calculateSquareSum(111));
 
     }
 
